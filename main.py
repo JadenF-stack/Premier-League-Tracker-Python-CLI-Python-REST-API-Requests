@@ -13,7 +13,6 @@ TEAM_ALIASES = {
     "man united": "Manchester United",
     "united": "Manchester United",
     "mufc": "Manchester United",
-    "mu": "Manchester United",
     "spurs": "Tottenham Hotspur",
     "wolves": "Wolverhampton Wanderers FC",
 }
@@ -344,4 +343,5 @@ def menu() -> None:
 
 
 if __name__ == "__main__":
+
     menu()
