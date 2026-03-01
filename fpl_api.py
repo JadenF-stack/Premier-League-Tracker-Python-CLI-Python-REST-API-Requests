@@ -4,7 +4,7 @@ from typing import Any, Dict, Optional
 
 import requests
 
-API_KEY = "32e41bd3360648de82bca60c5e30f9ca"
+API_KEY = ""
 
 BASE_URL = "https://api.football-data.org/v4"
 HEADERS = {"X-Auth-Token": API_KEY}
@@ -72,5 +72,6 @@ def get_scorers(limit: int = 10) -> Dict[str, Any]:
     I pass limit so I can control how many players are returned.
     """
     return _get("/competitions/PL/scorers", params={"limit": limit})
+
 
 
