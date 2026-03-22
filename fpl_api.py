@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "32e41bd3360648de82bca60c5e30f9ca"
+API_KEY = ""
 BASE_URL = "https://api.football-data.org/v4"
 HEADERS = {"X-Auth-Token": API_KEY}
 
